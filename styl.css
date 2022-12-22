@@ -1,0 +1,25 @@
+*{
+    margin:0;
+    padding:0;
+}
+.container{
+    background-color:black;
+    border-radius:20px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    margin:10px;
+    height:45px;
+    align-items:center;
+}
+.container a{
+    text-decoration:none;
+    color:white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding:10px;
+}
+a:hover{
+    color:rgb(216, 134, 41);
+    background-color:rgba(59, 56, 56, 0.644);
+    font-weight: bold;
+}
